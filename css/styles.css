@@ -32,7 +32,6 @@ body {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 .navigation-container,
 .address-container {
@@ -214,7 +213,7 @@ body {
   width: 1128px;
   height: 412px;
   flex-shrink: 0;
-  padding: 120px;
+  margin: 120px;
 }
 .section-two-header {
   color: var(--NAVY-BLUE, #2e2f42);
@@ -237,7 +236,7 @@ body {
 
 .section-three-container {
   background-color: var(--CLOUD, #f4f4fd);
-  padding: 120px;
+  margin-bottom: 232px;
 }
 
 .team-member-container {
@@ -282,11 +281,6 @@ body {
 
 .footer-container {
   background-color: var(--NAVY-BLUE, #2e2f42);
-  padding: 100px 0;
-}
-
-.logo-span-dark-footer {
-  color: var(--CLOUD);
 }
 
 .footer-additional-description {
@@ -294,8 +288,15 @@ body {
   font-size: 16px;
   line-height: 24px; /* 150% */
   letter-spacing: 0.32px;
-  margin: 76px;
-  flex-shrink: 0;
+  width: 264px;
+  padding-top: 17.5px;
+}
+.footer-div {
+  padding-top: 101.5px;
+  padding-bottom: 100px;
+}
+.logo-span-dark-footer {
+  color: var(--CLOUD);
 }
 
 /* ./PORTOFOLIO.HTML */
