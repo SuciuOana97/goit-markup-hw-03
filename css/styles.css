@@ -150,6 +150,14 @@ body {
 
 .logo-span-dark-header {
   color: var(--NAVY-BLUE);
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 116.667%;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 
 /* hero content section */
@@ -165,10 +173,9 @@ body {
   color: var(--WHITE, #fff);
   text-align: center;
   font-size: 56px;
-  font-weight: 700;
-  line-height: 107.143%; /* 107.143% */
+  line-height: 107.143%;
   letter-spacing: 1.12px;
-  padding-bottom: 48px;
+  max-width: 496px;
 }
 
 .hero-image-button {
@@ -342,6 +349,21 @@ body {
   justify-content: flex-start;
   align-items: flex-start;
   padding: 100px 0;
+}
+
+.footer-logo {
+  background-color: var(--navy-blue);
+  flex-shrink: 0;
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 1.17;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-additional-description {
