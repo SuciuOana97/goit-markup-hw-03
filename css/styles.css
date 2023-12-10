@@ -66,7 +66,7 @@ body {
 }
 
 /*Header*/
-.top-container {
+.top-head {
   display: flex;
   justify-content: space-between;
 }
