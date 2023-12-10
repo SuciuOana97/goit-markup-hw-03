@@ -423,6 +423,9 @@ body {
   row-gap: 48px;
 }
 
+.project-image {
+  display: block;
+}
 .project-container {
   width: calc((100% - 48px) / 3);
 }
