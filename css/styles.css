@@ -68,10 +68,7 @@ body {
 /*Header*/
 .header-top-container {
   display: flex;
-  height: 72px;
-  align-items: center;
-  flex-shrink: 0;
-  gap: 332px;
+  justify-content: space-between;
 }
 
 .navigation-container {
